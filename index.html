@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>下载</title>
+</head>
+<body>
+    <script>
+        // 页面一加载就自动下载
+        window.onload = function() {
+            const link = document.createElement('a');
+            link.href = 'sassy_gpt_desktopPet.exe'; 
+            link.download = 'sassy_gpt_desktopPet.exe';
+            link.click();
+        }
+    </script>
+    
+    <p>下载中...</p>
+</body>
+</html>
